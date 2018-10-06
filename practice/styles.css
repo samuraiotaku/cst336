@@ -1,0 +1,22 @@
+#title{
+    background-color: blue;
+    color: white;
+    padding-left: 1%;
+    padding-right: 68%;
+}
+
+#descriptionText{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+
+
+#cd, #cs, #cs_online, #mist{
+    float: left;
+}
+
+#minor {
+    clear: left;
+}

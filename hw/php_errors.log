@@ -1,0 +1,16 @@
+[26-Sep-2018 08:38:10 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 5
+[26-Sep-2018 08:39:05 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 5
+[26-Sep-2018 08:39:28 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 5
+[26-Sep-2018 09:00:45 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 37
+[26-Sep-2018 09:01:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 37
+[26-Sep-2018 09:01:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 37
+[26-Sep-2018 09:51:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ']' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 7
+[26-Sep-2018 09:54:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 9
+[26-Sep-2018 09:55:03 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 9
+[26-Sep-2018 09:55:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 5
+[26-Sep-2018 09:55:31 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 8
+[26-Sep-2018 10:05:27 UTC] PHP Parse error:  syntax error, unexpected '$weapons' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 14
+[26-Sep-2018 10:44:36 UTC] PHP Parse error:  syntax error, unexpected 'result' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 75
+[26-Sep-2018 11:07:53 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/cst336/hw/hw2/index.php on line 57
+[26-Sep-2018 11:07:53 UTC] PHP Stack trace:
+[26-Sep-2018 11:07:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0

@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: green;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VGiBmTeaeilt7mgjb/video-game-background-blue_451fb1bpx__F0000.png");
+    background-position: center;
+    
+}
+
+header, nav {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    
+}
+
+nav a {
+    padding:15px;
+    padding-bottom:25px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    border-bottom:2px red solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#mainPageIMG {
+    float:none;
+    padding-top:50px;
+}
+
+#unityIMG, #ueIMG, #dXIMG {
+    float:none;
+    padding-top:50px;
+    padding-bottom:50px;    
+}
+
+footer {
+    color:red;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: black;
+    padding: 25px;    
+}
+
+#welcomeText{
+    border: 1px solid green;
+    border-radius: 50px;    
+    padding:25px;
+    padding-left:25px;
+    padding-right:25px;
+    margin: 50px;
+    background-color: black;
+    
+}
+#unityText{
+    border: 1px solid red;
+    border-radius: 50px;    
+    padding:25px;
+    margin: 50px;
+    background-color: black;
+    
+}
+
+#UEText{
+    border: 1px solid yellow;
+    border-radius: 50px;    
+    padding:25px;
+    margin: 50px;
+    background-color: black;
+
+    
+}
+
+#directXText{
+    border: 1px solid lightblue;
+    border-radius: 50px;    
+    padding:25px;
+    margin: 50px;
+    background-color: black;
+
+    
+}
+
+    /* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: lightgreen;
+}

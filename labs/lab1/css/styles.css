@@ -1,0 +1,65 @@
+body {
+    background-color:black;
+    color:white;
+}
+header{
+    color:yellow;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+#me, #welcomeText {
+    float: left;
+    text-align: left;
+}
+
+table{
+    padding-top: 30px;
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 20px;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer {
+    clear: left;
+}

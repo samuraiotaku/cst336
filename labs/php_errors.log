@@ -1,0 +1,375 @@
+[10-Sep-2018 21:42:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 12
+[10-Sep-2018 22:00:53 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 27
+[10-Sep-2018 22:00:54 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 27
+[12-Sep-2018 22:45:41 UTC] PHP Parse error:  syntax error, unexpected '70' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:45:41 UTC] PHP Stack trace:
+[12-Sep-2018 22:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[12-Sep-2018 22:46:24 UTC] PHP Parse error:  syntax error, unexpected '.70' (T_DNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:46:24 UTC] PHP Stack trace:
+[12-Sep-2018 22:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[12-Sep-2018 22:48:48 UTC] PHP Parse error:  syntax error, unexpected '.70' (T_DNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:48:48 UTC] PHP Stack trace:
+[12-Sep-2018 22:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[12-Sep-2018 22:49:42 UTC] PHP Parse error:  syntax error, unexpected '.70' (T_DNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:49:42 UTC] PHP Stack trace:
+[12-Sep-2018 22:49:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[12-Sep-2018 22:49:48 UTC] PHP Parse error:  syntax error, unexpected '70' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:49:48 UTC] PHP Stack trace:
+[12-Sep-2018 22:49:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[12-Sep-2018 22:50:37 UTC] PHP Parse error:  syntax error, unexpected '"/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 29
+[12-Sep-2018 22:50:37 UTC] PHP Stack trace:
+[12-Sep-2018 22:50:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[17-Sep-2018 21:22:06 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 5
+[17-Sep-2018 21:22:54 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 5
+[17-Sep-2018 21:37:16 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 8
+[17-Sep-2018 21:37:16 UTC] PHP Stack trace:
+[17-Sep-2018 21:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:37:16 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:24
+[17-Sep-2018 21:37:16 UTC] PHP   3. sort() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:8
+[17-Sep-2018 21:37:16 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 8
+[17-Sep-2018 21:37:16 UTC] PHP Stack trace:
+[17-Sep-2018 21:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:37:16 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:24
+[17-Sep-2018 21:37:16 UTC] PHP   3. sort() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:8
+[17-Sep-2018 21:37:16 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 8
+[17-Sep-2018 21:37:16 UTC] PHP Stack trace:
+[17-Sep-2018 21:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:37:16 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:24
+[17-Sep-2018 21:37:16 UTC] PHP   3. sort() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:8
+[17-Sep-2018 21:43:38 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 8
+[17-Sep-2018 21:43:38 UTC] PHP Stack trace:
+[17-Sep-2018 21:43:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:43:38 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:24
+[17-Sep-2018 21:43:38 UTC] PHP   3. print_r() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:8
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:26
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:26
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:26
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:26
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:28
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:28
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:28
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:28
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:31
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:31
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:31
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:31
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:34
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:34
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:34
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:34
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:37
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:37
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:37
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 21:47:55 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 10
+[17-Sep-2018 21:47:55 UTC] PHP Stack trace:
+[17-Sep-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 21:47:55 UTC] PHP   2. displayArray() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:37
+[17-Sep-2018 21:47:55 UTC] PHP   3. ucfirst() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:10
+[17-Sep-2018 22:08:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 44
+[17-Sep-2018 22:10:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 48
+[17-Sep-2018 22:10:24 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 48
+[17-Sep-2018 22:15:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 51
+[17-Sep-2018 22:16:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 51
+[17-Sep-2018 22:22:55 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 60
+[17-Sep-2018 22:24:48 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:24:48 UTC] PHP Stack trace:
+[17-Sep-2018 22:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:24:48 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:24:48 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:24:48 UTC] PHP Stack trace:
+[17-Sep-2018 22:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:24:48 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:24:48 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:24:48 UTC] PHP Stack trace:
+[17-Sep-2018 22:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:24:48 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:28:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:28:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:28:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:28:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:28:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:28:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:28:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:28:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:28:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:29:27 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:29:27 UTC] PHP Stack trace:
+[17-Sep-2018 22:29:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:29:27 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:29:27 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:29:27 UTC] PHP Stack trace:
+[17-Sep-2018 22:29:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:29:27 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:29:27 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:29:27 UTC] PHP Stack trace:
+[17-Sep-2018 22:29:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:29:27 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:39 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:39 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:39 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:39 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:39 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:39 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:39 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:39 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:39 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:57 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:57 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:57 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:57 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:57 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:57 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:30:57 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:30:57 UTC] PHP Stack trace:
+[17-Sep-2018 22:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:30:57 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:44:59 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:44:59 UTC] PHP Stack trace:
+[17-Sep-2018 22:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:44:59 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:44:59 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:44:59 UTC] PHP Stack trace:
+[17-Sep-2018 22:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:44:59 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:44:59 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:44:59 UTC] PHP Stack trace:
+[17-Sep-2018 22:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:44:59 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:00 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:00 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:00 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:00 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:00 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:00 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:00 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:00 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:00 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:06 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 63
+[17-Sep-2018 22:45:17 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:17 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:17 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:17 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:17 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:17 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:45:17 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:45:17 UTC] PHP Stack trace:
+[17-Sep-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:45:17 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:31 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:31 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:31 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:31 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:31 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:31 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:44 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:44 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:44 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:44 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:44 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:44 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:44 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:44 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:44 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[17-Sep-2018 22:46:49 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 54
+[17-Sep-2018 22:46:49 UTC] PHP Stack trace:
+[17-Sep-2018 22:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:0
+[17-Sep-2018 22:46:49 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab3/arrays.php:54
+[26-Sep-2018 22:33:43 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[26-Sep-2018 22:33:44 UTC] PHP Stack trace:
+[26-Sep-2018 22:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:35:03 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[26-Sep-2018 22:35:03 UTC] PHP Stack trace:
+[26-Sep-2018 22:35:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:35:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 4
+[26-Sep-2018 22:35:55 UTC] PHP Parse error:  syntax error, unexpected '"echo "' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 4
+[26-Sep-2018 22:38:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 4
+[26-Sep-2018 22:44:43 UTC] PHP Warning:  include(pixabayAPI): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:44:43 UTC] PHP Stack trace:
+[26-Sep-2018 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:44:43 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:44:43 UTC] PHP Stack trace:
+[26-Sep-2018 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:44:43 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[26-Sep-2018 22:44:43 UTC] PHP Stack trace:
+[26-Sep-2018 22:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:21 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:45:21 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:21 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:45:21 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:21 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[26-Sep-2018 22:45:21 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:46 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:45:46 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:46 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[26-Sep-2018 22:45:46 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[26-Sep-2018 22:45:46 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[26-Sep-2018 22:45:46 UTC] PHP Stack trace:
+[26-Sep-2018 22:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:09:39 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:09:39 UTC] PHP Stack trace:
+[01-Oct-2018 21:09:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:09:39 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:09:39 UTC] PHP Stack trace:
+[01-Oct-2018 21:09:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:09:39 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[01-Oct-2018 21:09:39 UTC] PHP Stack trace:
+[01-Oct-2018 21:09:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:18 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:12:18 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:18 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:12:18 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:18 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[01-Oct-2018 21:12:18 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:35 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:12:35 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:35 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:12:35 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:12:35 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[01-Oct-2018 21:12:35 UTC] PHP Stack trace:
+[01-Oct-2018 21:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:14:40 UTC] PHP Warning:  include(pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:14:40 UTC] PHP Stack trace:
+[01-Oct-2018 21:14:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:14:40 UTC] PHP Warning:  include(): Failed opening 'pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 2
+[01-Oct-2018 21:14:40 UTC] PHP Stack trace:
+[01-Oct-2018 21:14:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:14:40 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[01-Oct-2018 21:14:40 UTC] PHP Stack trace:
+[01-Oct-2018 21:14:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:15:21 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 6
+[01-Oct-2018 21:15:21 UTC] PHP Stack trace:
+[01-Oct-2018 21:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:21:34 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[01-Oct-2018 21:21:34 UTC] PHP Stack trace:
+[01-Oct-2018 21:21:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:23:57 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[01-Oct-2018 21:23:57 UTC] PHP Stack trace:
+[01-Oct-2018 21:23:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:24:35 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[01-Oct-2018 21:24:35 UTC] PHP Stack trace:
+[01-Oct-2018 21:24:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:29:11 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[01-Oct-2018 21:29:11 UTC] PHP Stack trace:
+[01-Oct-2018 21:29:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:35:39 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 5
+[01-Oct-2018 21:35:39 UTC] PHP Stack trace:
+[01-Oct-2018 21:35:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[01-Oct-2018 21:40:58 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 4
+[01-Oct-2018 21:40:58 UTC] PHP Stack trace:
+[01-Oct-2018 21:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0

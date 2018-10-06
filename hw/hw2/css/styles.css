@@ -1,0 +1,61 @@
+#title {
+    text-align: center;
+    padding: 25px;
+    text-shadow: 3px 2px black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;
+    background-image: linear-gradient(to right, red , yellow);
+
+}
+
+#monsters {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+#weapons {
+    text-align: center;
+    padding-top:25px;
+    padding-bottom: 10px;
+}
+
+#mApperance, #equipment, #instruction, #result{
+    display:inline;
+    /*padding:2px;*/
+    /*display:block;*/
+    text-align: center;
+    background-image: linear-gradient(to right, red , yellow);
+    /*border-radius: 50px;*/
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;    
+    
+}
+
+body {
+    /*padding: 25px;*/
+    background-color: black;
+    color: white ;
+    background-image: url("http://www.journeystoitaly.com/restyling/wp-content/uploads/2017/01/colosseum-underground-tour-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+    text-align: center;
+    text-shadow: 3px 2px black;
+}
+
+footer {
+    display:inline;
+    text-align: center;
+    /*background-image: linear-gradient(to right, red , yellow);*/
+    padding:30px;
+    border-radius: 50px;
+    padding-bottom:25px;
+}

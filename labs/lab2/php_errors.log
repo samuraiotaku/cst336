@@ -1,0 +1,6 @@
+[12-Sep-2018 22:04:55 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 23
+[12-Sep-2018 22:04:56 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 23
+[12-Sep-2018 22:09:25 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 26
+[12-Sep-2018 22:09:26 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 26
+[12-Sep-2018 22:09:42 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 26
+[12-Sep-2018 22:10:55 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 26
