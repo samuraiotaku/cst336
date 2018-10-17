@@ -101,3 +101,34 @@
 [24-Sep-2018 20:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p3/reviews.php:0
 [24-Sep-2018 20:03:33 UTC] PHP   2. movieReviews() /home/ubuntu/workspace/cst336/practice/p3/reviews.php:84
 [24-Sep-2018 20:04:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/cst336/practice/p3/reviews.php on line 21
+[08-Oct-2018 19:48:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 9
+[08-Oct-2018 19:55:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 10
+[08-Oct-2018 19:55:50 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 16
+[08-Oct-2018 19:56:11 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 16
+[08-Oct-2018 20:18:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 25
+[08-Oct-2018 20:28:46 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING) in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 4
+[08-Oct-2018 20:29:23 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 7
+[08-Oct-2018 20:30:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 29
+[08-Oct-2018 20:30:33 UTC] PHP Fatal error:  Call to undefined function char() in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 24
+[08-Oct-2018 20:30:33 UTC] PHP Stack trace:
+[08-Oct-2018 20:30:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p5/index.php:0
+[08-Oct-2018 20:30:33 UTC] PHP   2. pass_num() /home/ubuntu/workspace/cst336/practice/p5/index.php:61
+[08-Oct-2018 20:33:22 UTC] PHP Fatal error:  Call to undefined function print_f() in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 62
+[08-Oct-2018 20:33:22 UTC] PHP Stack trace:
+[08-Oct-2018 20:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/p5/index.php:0
+[08-Oct-2018 20:36:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/practice/p5/index.php on line 24
+[08-Oct-2018 21:22:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 20
+[08-Oct-2018 21:23:00 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE) in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 15
+[08-Oct-2018 21:38:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 8
+[08-Oct-2018 21:47:45 UTC] PHP Parse error:  syntax error, unexpected '$yearSum' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 12
+[08-Oct-2018 21:54:54 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 2
+[08-Oct-2018 22:01:25 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 11
+[08-Oct-2018 22:01:55 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 11
+[08-Oct-2018 22:02:06 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 11
+[08-Oct-2018 22:05:05 UTC] PHP Parse error:  syntax error, unexpected '$zodiacAnimal' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 12
+[08-Oct-2018 22:05:16 UTC] PHP Parse error:  syntax error, unexpected '$zodiacAnimal' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 12
+[08-Oct-2018 22:05:40 UTC] PHP Parse error:  syntax error, unexpected 'src' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 11
+[08-Oct-2018 22:15:03 UTC] PHP Fatal error:  Call to undefined function pass_num() in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 41
+[08-Oct-2018 22:15:03 UTC] PHP Stack trace:
+[08-Oct-2018 22:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/practice/zodiac/index.php:0
+[08-Oct-2018 22:22:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/zodiac/index.php on line 11
