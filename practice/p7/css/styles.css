@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: grey;
+    padding-top:20px;
+}
+
+#banner {
+    width: 80%;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    border-style: double;
+    border-width: 5px;
+    display: inline-block;
+    background-color: #680000;
+    color: white;
+    border-color: black;
+}
+
+#form {
+    background-color: white;
+    width: 80%;
+    display: inline-block;
+    border-style: double;
+    border-width: 5px;
+}

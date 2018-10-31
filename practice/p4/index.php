@@ -39,6 +39,7 @@ function createTable($row, $col) {
         }
         echo "</tr>";
     }
+    echo "</table>";
 }
 
 //test code.
