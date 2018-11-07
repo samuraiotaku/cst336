@@ -4,6 +4,8 @@ session_start();
 include '../../inc/dbConnection.php';
 $dbConn = startConnection("ottermart");
 include 'inc/functions.php';
+include 'index.php';
+
 validateSession();
 
 if (isset($_GET['productId'])) {
