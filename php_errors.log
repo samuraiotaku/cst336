@@ -74,3 +74,33 @@
 [15-Oct-2018 19:47:54 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/practice/midterm_practice1.php on line 5
 [15-Oct-2018 20:12:32 UTC] PHP Parse error:  syntax error, unexpected 'red' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1.php on line 37
 [15-Oct-2018 20:39:44 UTC] PHP Parse error:  syntax error, unexpected '!', expecting ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice1.php on line 37
+[07-Nov-2018 22:07:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/336-project/index.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/336-project/index.php(113): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
+[07-Nov-2018 22:07:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/336-project/index.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/336-project/index.php(113): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
+[07-Nov-2018 22:07:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/336-project/index.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/336-project/index.php(113): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
+[07-Nov-2018 22:07:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/336-project/index.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/336-project/index.php(113): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
+[07-Nov-2018 22:07:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/336-project/index.php:113
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/336-project/index.php(113): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
