@@ -9,6 +9,7 @@ body{
 	height: 400px;
 	background-color: #FFFFFF;
 	overflow: hidden;
+
 }
 
 #pacman, #redGhost, #pinkGhost, #greenGhost, #blueGhost{
