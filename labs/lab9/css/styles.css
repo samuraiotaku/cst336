@@ -1,0 +1,35 @@
+
+body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align:center;
+    justify-content: center;
+    background-color:black;
+    background-image: url("https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,fl_progressive,h_533,q_auto,w_800/v1428564288/article/R10141_image1");
+}
+#header {
+    display: inline-block;
+    justify-content: center;
+    text-align:center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: double;
+    border-width: 5px;
+    width:80%;
+    background-color: green
+}
+#spacer{
+    padding-top: 25px;
+}
+
+#form {
+    background-color:white;
+    width:80%;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: double;
+    border-width: 5px;
+
+}
