@@ -1,8 +1,10 @@
 <?php
-    include '../../../inc/dbConnection.php';
+    include '../../inc/dbConnection.php';
     $dbConn = startConnection("c9");
 
-    $sql = "SELECT * FROM pets WHERE id = ".$_GET['petid'];
+    //$sql = "SELECT * FROM p11_data WHERE 1";
+    $sql = "SELECT AVG(rating) FROM p11_data WHERE 1";
+
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
