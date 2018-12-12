@@ -39,7 +39,7 @@
             <h1>Product List</h1>
             
             <form>
-                    Product Name:<br>
+                    <b>Product Name:</b><br>
                     <input type="text" name="productName" placeholder="Product keyword" /><br><br>
                     
                     <b>Price:</b> From: <input type="text" name="priceFrom" size="7"  /> 
