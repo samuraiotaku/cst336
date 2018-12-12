@@ -1,7 +1,8 @@
 <?php
-function startConnection($dbname="final_project") {
+function startConnection($dbname="fortnite") {
     //Creating database connection
     $host = "localhost";
+//  $dbname = "ottermart";
     $username = "root";
     $password = "";
     

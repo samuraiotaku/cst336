@@ -104,3 +104,1023 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/336-project/index.php(267): filterProducts()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/336-project/index.php on line 113
+[10-Dec-2018 21:20:28 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/ubuntu/workspace/cst336/final_project/admin.php on line 7
+[10-Dec-2018 21:20:28 UTC] PHP Stack trace:
+[10-Dec-2018 21:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:20:28 UTC] PHP   2. header() /home/ubuntu/workspace/cst336/final_project/admin.php:7
+[10-Dec-2018 21:27:46 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final_project/admin.php on line 6
+[10-Dec-2018 21:27:46 UTC] PHP Stack trace:
+[10-Dec-2018 21:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:27:46 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final_project/admin.php on line 6
+[10-Dec-2018 21:27:46 UTC] PHP Stack trace:
+[10-Dec-2018 21:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:27:46 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 7
+[10-Dec-2018 21:27:46 UTC] PHP Stack trace:
+[10-Dec-2018 21:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:28:31 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 10
+[10-Dec-2018 21:28:31 UTC] PHP Stack trace:
+[10-Dec-2018 21:28:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:28:32 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 10
+[10-Dec-2018 21:28:32 UTC] PHP Stack trace:
+[10-Dec-2018 21:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[10-Dec-2018 21:28:32 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 10
+[10-Dec-2018 21:28:32 UTC] PHP Stack trace:
+[10-Dec-2018 21:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[11-Dec-2018 17:20:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/final_project/index.php on line 43
+[11-Dec-2018 17:20:28 UTC] PHP Stack trace:
+[11-Dec-2018 17:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 17:21:07 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/final_project/index.php on line 41
+[11-Dec-2018 17:21:07 UTC] PHP Stack trace:
+[11-Dec-2018 17:21:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 17:22:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(52): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:23:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(50): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:24:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(52): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:26:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:26:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:27:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:27:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:29:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:29:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:30:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:31:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(45): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:32:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(45): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:32:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:32:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:33:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:33:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:34:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:35:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:35:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:36:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:36:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:37:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:37:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:38:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:38:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:39:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final_project.table_category' doesn't exist' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:41:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:42:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:42:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:42:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:43:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:44:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:44:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:45:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:45:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:47:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:48:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:49:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:49:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(47): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 17:52:18 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/final_project_PM/index.php on line 15
+[11-Dec-2018 17:52:18 UTC] PHP Stack trace:
+[11-Dec-2018 17:52:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project_PM/index.php:0
+[11-Dec-2018 18:00:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(55): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 18:00:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(55): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 18:02:42 UTC] PHP Warning:  include(../cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final_project/index.php on line 4
+[11-Dec-2018 18:02:42 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:02:42 UTC] PHP Warning:  include(): Failed opening '../cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final_project/index.php on line 4
+[11-Dec-2018 18:02:42 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:02:42 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final_project/index.php on line 5
+[11-Dec-2018 18:02:42 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:02:58 UTC] PHP Warning:  include(cst336/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final_project/index.php on line 4
+[11-Dec-2018 18:02:58 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:02:58 UTC] PHP Warning:  include(): Failed opening 'cst336/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final_project/index.php on line 4
+[11-Dec-2018 18:02:58 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:02:58 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final_project/index.php on line 5
+[11-Dec-2018 18:02:58 UTC] PHP Stack trace:
+[11-Dec-2018 18:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 18:04:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/index.php(14): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(55): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/index.php on line 14
+[11-Dec-2018 19:00:49 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 31
+[11-Dec-2018 19:00:49 UTC] PHP Stack trace:
+[11-Dec-2018 19:00:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 19:01:06 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 31
+[11-Dec-2018 19:01:06 UTC] PHP Stack trace:
+[11-Dec-2018 19:01:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 19:01:12 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 31
+[11-Dec-2018 19:01:12 UTC] PHP Stack trace:
+[11-Dec-2018 19:01:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 19:01:36 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 31
+[11-Dec-2018 19:01:36 UTC] PHP Stack trace:
+[11-Dec-2018 19:01:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 19:02:29 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 31
+[11-Dec-2018 19:02:29 UTC] PHP Stack trace:
+[11-Dec-2018 19:02:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 19:07:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productName' in 'order clause'' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/functions.php(70): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(57): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 70
+[11-Dec-2018 19:07:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY price DESC' at line 1' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php:70
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/functions.php(70): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final_project/index.php(59): filterProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 70
+[11-Dec-2018 19:14:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final_project/productInfo.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/productInfo.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(9): getProductInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/productInfo.php on line 17
+[11-Dec-2018 19:14:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final_project/productInfo.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/productInfo.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(9): getProductInfo('')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/productInfo.php on line 17
+[11-Dec-2018 19:15:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 19:16:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 19:16:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 19:50:29 UTC] PHP Parse error:  syntax error, unexpected '100' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 85
+[11-Dec-2018 19:50:29 UTC] PHP Stack trace:
+[11-Dec-2018 19:50:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/index.php:0
+[11-Dec-2018 21:49:50 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 42
+[11-Dec-2018 21:49:50 UTC] PHP Stack trace:
+[11-Dec-2018 21:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[11-Dec-2018 21:53:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 21:56:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 21:57:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 21:57:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 21:58:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 21:58:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:06:40 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 118
+[11-Dec-2018 22:06:40 UTC] PHP Stack trace:
+[11-Dec-2018 22:06:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[11-Dec-2018 22:13:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:25:13 UTC] PHP Warning:  include(../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 4
+[11-Dec-2018 22:25:13 UTC] PHP Stack trace:
+[11-Dec-2018 22:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:25:13 UTC] PHP Warning:  include(): Failed opening '../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 4
+[11-Dec-2018 22:25:13 UTC] PHP Stack trace:
+[11-Dec-2018 22:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:25:13 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 5
+[11-Dec-2018 22:25:13 UTC] PHP Stack trace:
+[11-Dec-2018 22:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:26:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 54
+[11-Dec-2018 22:26:27 UTC] PHP Stack trace:
+[11-Dec-2018 22:26:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:27:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 57
+[11-Dec-2018 22:27:20 UTC] PHP Stack trace:
+[11-Dec-2018 22:27:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:27:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:27:48 UTC] PHP Stack trace:
+[11-Dec-2018 22:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:29:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:29:14 UTC] PHP Stack trace:
+[11-Dec-2018 22:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:29:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:29:30 UTC] PHP Stack trace:
+[11-Dec-2018 22:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:29:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:29:43 UTC] PHP Stack trace:
+[11-Dec-2018 22:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:29:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:29:50 UTC] PHP Stack trace:
+[11-Dec-2018 22:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:30:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:30:09 UTC] PHP Stack trace:
+[11-Dec-2018 22:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:30:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:30:17 UTC] PHP Stack trace:
+[11-Dec-2018 22:30:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:30:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:30:56 UTC] PHP Stack trace:
+[11-Dec-2018 22:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:34:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:34:27 UTC] PHP Stack trace:
+[11-Dec-2018 22:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:34:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:34:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:34:56 UTC] PHP Stack trace:
+[11-Dec-2018 22:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:34:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:34:56 UTC] PHP Stack trace:
+[11-Dec-2018 22:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:35:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:36:57 UTC] PHP Warning:  include(.inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final_project/deleteProduct.php on line 4
+[11-Dec-2018 22:36:57 UTC] PHP Stack trace:
+[11-Dec-2018 22:36:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/deleteProduct.php:0
+[11-Dec-2018 22:36:57 UTC] PHP Warning:  include(): Failed opening '.inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final_project/deleteProduct.php on line 4
+[11-Dec-2018 22:36:57 UTC] PHP Stack trace:
+[11-Dec-2018 22:36:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/deleteProduct.php:0
+[11-Dec-2018 22:36:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final_project/deleteProduct.php on line 5
+[11-Dec-2018 22:36:57 UTC] PHP Stack trace:
+[11-Dec-2018 22:36:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/deleteProduct.php:0
+[11-Dec-2018 22:37:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:37:45 UTC] PHP Stack trace:
+[11-Dec-2018 22:37:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:38:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:38:02 UTC] PHP Stack trace:
+[11-Dec-2018 22:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:40:10 UTC] PHP Fatal error:  Call to undefined function getProductInfo() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 31
+[11-Dec-2018 22:40:10 UTC] PHP Stack trace:
+[11-Dec-2018 22:40:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:41:29 UTC] PHP Fatal error:  Call to undefined function getProductInfo() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 31
+[11-Dec-2018 22:41:29 UTC] PHP Stack trace:
+[11-Dec-2018 22:41:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:41:51 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 60
+[11-Dec-2018 22:41:51 UTC] PHP Stack trace:
+[11-Dec-2018 22:41:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:44:39 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 60
+[11-Dec-2018 22:44:39 UTC] PHP Stack trace:
+[11-Dec-2018 22:44:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:46:33 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 68
+[11-Dec-2018 22:46:33 UTC] PHP Stack trace:
+[11-Dec-2018 22:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:47:13 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 73
+[11-Dec-2018 22:47:13 UTC] PHP Stack trace:
+[11-Dec-2018 22:47:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:47:50 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 73
+[11-Dec-2018 22:47:50 UTC] PHP Stack trace:
+[11-Dec-2018 22:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:48:16 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 73
+[11-Dec-2018 22:48:16 UTC] PHP Stack trace:
+[11-Dec-2018 22:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:49:02 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 72
+[11-Dec-2018 22:49:02 UTC] PHP Stack trace:
+[11-Dec-2018 22:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:49:26 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 72
+[11-Dec-2018 22:49:26 UTC] PHP Stack trace:
+[11-Dec-2018 22:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:49:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:49:59 UTC] PHP Stack trace:
+[11-Dec-2018 22:49:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:50:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:50:19 UTC] PHP Stack trace:
+[11-Dec-2018 22:50:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:50:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:50:56 UTC] PHP Stack trace:
+[11-Dec-2018 22:50:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:51:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:51:04 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:51:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:51:17 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:51:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:51:19 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:51:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:51:21 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:51:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 65
+[11-Dec-2018 22:51:24 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[11-Dec-2018 22:51:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:51:32 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:51:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:51:45 UTC] PHP Stack trace:
+[11-Dec-2018 22:51:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:52:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:52:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:52:04 UTC] PHP Stack trace:
+[11-Dec-2018 22:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:53:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:53:54 UTC] PHP Stack trace:
+[11-Dec-2018 22:53:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:54:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:54:08 UTC] PHP Stack trace:
+[11-Dec-2018 22:54:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:55:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:55:33 UTC] PHP Stack trace:
+[11-Dec-2018 22:55:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:55:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:55:36 UTC] PHP Stack trace:
+[11-Dec-2018 22:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:55:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:55:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:55:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:55:41 UTC] PHP Stack trace:
+[11-Dec-2018 22:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:55:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:55:56 UTC] PHP Stack trace:
+[11-Dec-2018 22:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:56:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:56:05 UTC] PHP Stack trace:
+[11-Dec-2018 22:56:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:56:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:56:52 UTC] PHP Stack trace:
+[11-Dec-2018 22:56:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:56:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:56:54 UTC] PHP Stack trace:
+[11-Dec-2018 22:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:56:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:56:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:56:57 UTC] PHP Stack trace:
+[11-Dec-2018 22:56:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:57:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:57:01 UTC] PHP Stack trace:
+[11-Dec-2018 22:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:57:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:57:43 UTC] PHP Stack trace:
+[11-Dec-2018 22:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:57:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:57:45 UTC] PHP Stack trace:
+[11-Dec-2018 22:57:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:57:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:57:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:57:47 UTC] PHP Stack trace:
+[11-Dec-2018 22:57:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:57:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 22:58:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:58:29 UTC] PHP Stack trace:
+[11-Dec-2018 22:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:58:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:58:47 UTC] PHP Stack trace:
+[11-Dec-2018 22:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:58:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:58:50 UTC] PHP Stack trace:
+[11-Dec-2018 22:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 22:59:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 22:59:10 UTC] PHP Stack trace:
+[11-Dec-2018 22:59:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:00:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:00:05 UTC] PHP Stack trace:
+[11-Dec-2018 23:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:04:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:04:34 UTC] PHP Stack trace:
+[11-Dec-2018 23:04:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:06:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 73
+[11-Dec-2018 23:06:53 UTC] PHP Stack trace:
+[11-Dec-2018 23:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:06:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 73
+[11-Dec-2018 23:06:58 UTC] PHP Stack trace:
+[11-Dec-2018 23:06:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:10:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:10:19 UTC] PHP Stack trace:
+[11-Dec-2018 23:10:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:10:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:10:31 UTC] PHP Stack trace:
+[11-Dec-2018 23:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:10:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:10:43 UTC] PHP Stack trace:
+[11-Dec-2018 23:10:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:10:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:10:58 UTC] PHP Stack trace:
+[11-Dec-2018 23:10:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:11:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:11:08 UTC] PHP Stack trace:
+[11-Dec-2018 23:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:11:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:11:56 UTC] PHP Stack trace:
+[11-Dec-2018 23:11:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:12:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:12:01 UTC] PHP Stack trace:
+[11-Dec-2018 23:12:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:12:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:12:10 UTC] PHP Stack trace:
+[11-Dec-2018 23:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:14:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 74
+[11-Dec-2018 23:14:04 UTC] PHP Stack trace:
+[11-Dec-2018 23:14:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:14:33 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 24
+[11-Dec-2018 23:14:33 UTC] PHP Stack trace:
+[11-Dec-2018 23:14:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:18:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 71
+[11-Dec-2018 23:18:02 UTC] PHP Stack trace:
+[11-Dec-2018 23:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:18:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 71
+[11-Dec-2018 23:18:22 UTC] PHP Stack trace:
+[11-Dec-2018 23:18:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:19:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 71
+[11-Dec-2018 23:19:23 UTC] PHP Stack trace:
+[11-Dec-2018 23:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[11-Dec-2018 23:22:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final_projec'' in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final_project/productInfo.php(5): startConnection('final_projec')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/dbConnection.php on line 18
+[11-Dec-2018 23:23:05 UTC] PHP Fatal error:  Cannot redeclare getProductInfo() (previously declared in /home/ubuntu/workspace/cst336/final_project/productInfo.php:13) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 147
+[11-Dec-2018 23:23:05 UTC] PHP Stack trace:
+[11-Dec-2018 23:23:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/productInfo.php:0
+[12-Dec-2018 03:28:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:28:12 UTC] PHP Stack trace:
+[12-Dec-2018 03:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:28:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 26
+[12-Dec-2018 03:34:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:34:54 UTC] PHP Stack trace:
+[12-Dec-2018 03:34:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:35:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 26
+[12-Dec-2018 03:38:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:38:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:38:15 UTC] PHP Stack trace:
+[12-Dec-2018 03:38:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:38:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:40:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:40:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:40:59 UTC] PHP Stack trace:
+[12-Dec-2018 03:40:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:41:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:44:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:44:12 UTC] PHP Stack trace:
+[12-Dec-2018 03:44:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:45:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:45:01 UTC] PHP Stack trace:
+[12-Dec-2018 03:45:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:45:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:45:05 UTC] PHP Stack trace:
+[12-Dec-2018 03:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:46:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:46:21 UTC] PHP Stack trace:
+[12-Dec-2018 03:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:47:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:47:39 UTC] PHP Stack trace:
+[12-Dec-2018 03:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:47:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 75
+[12-Dec-2018 03:47:40 UTC] PHP Stack trace:
+[12-Dec-2018 03:47:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:48:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 64
+[12-Dec-2018 03:48:30 UTC] PHP Stack trace:
+[12-Dec-2018 03:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[12-Dec-2018 03:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 64
+[12-Dec-2018 03:52:55 UTC] PHP Stack trace:
+[12-Dec-2018 03:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[12-Dec-2018 03:54:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 64
+[12-Dec-2018 03:54:09 UTC] PHP Stack trace:
+[12-Dec-2018 03:54:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[12-Dec-2018 03:54:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:54:17 UTC] PHP Stack trace:
+[12-Dec-2018 03:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:54:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:55:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:55:10 UTC] PHP Stack trace:
+[12-Dec-2018 03:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:55:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:55:17 UTC] PHP Stack trace:
+[12-Dec-2018 03:55:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:55:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 03:59:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 76
+[12-Dec-2018 03:59:07 UTC] PHP Stack trace:
+[12-Dec-2018 03:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 03:59:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(27): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 27
+[12-Dec-2018 04:06:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 78
+[12-Dec-2018 04:06:38 UTC] PHP Stack trace:
+[12-Dec-2018 04:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:06:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ID =' at line 8' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 29
+[12-Dec-2018 04:07:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 78
+[12-Dec-2018 04:07:12 UTC] PHP Stack trace:
+[12-Dec-2018 04:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:07:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 8' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 29
+[12-Dec-2018 04:09:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 80
+[12-Dec-2018 04:09:41 UTC] PHP Stack trace:
+[12-Dec-2018 04:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:09:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 31
+[12-Dec-2018 04:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 80
+[12-Dec-2018 04:11:17 UTC] PHP Stack trace:
+[12-Dec-2018 04:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:12:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 31
+[12-Dec-2018 04:16:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 80
+[12-Dec-2018 04:16:08 UTC] PHP Stack trace:
+[12-Dec-2018 04:16:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:16:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 31
+[12-Dec-2018 04:22:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 37
+[12-Dec-2018 04:22:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 86
+[12-Dec-2018 04:22:51 UTC] PHP Stack trace:
+[12-Dec-2018 04:22:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:22:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 37
+[12-Dec-2018 04:23:05 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 37
+[12-Dec-2018 04:23:05 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:23:05 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:37
+[12-Dec-2018 04:23:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 86
+[12-Dec-2018 04:23:05 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:23:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 86
+[12-Dec-2018 04:23:10 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:23:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 86
+[12-Dec-2018 04:23:16 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:23:31 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 37
+[12-Dec-2018 04:23:31 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:23:31 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:37
+[12-Dec-2018 04:23:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 86
+[12-Dec-2018 04:23:31 UTC] PHP Stack trace:
+[12-Dec-2018 04:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:27:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 04:29:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 04:30:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 04:30:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 83
+[12-Dec-2018 04:30:30 UTC] PHP Stack trace:
+[12-Dec-2018 04:30:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:32:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 83
+[12-Dec-2018 04:32:38 UTC] PHP Stack trace:
+[12-Dec-2018 04:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:32:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 04:34:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 04:34:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 40
+[12-Dec-2018 04:34:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 83
+[12-Dec-2018 04:34:49 UTC] PHP Stack trace:
+[12-Dec-2018 04:34:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 04:36:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/final_project/updateProduct.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/updateProduct.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 38
+[12-Dec-2018 06:34:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 82
+[12-Dec-2018 06:34:47 UTC] PHP Stack trace:
+[12-Dec-2018 06:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0
+[12-Dec-2018 06:58:50 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 06:58:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:58:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 06:58:50 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:02:16 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:02:16 UTC] PHP Stack trace:
+[12-Dec-2018 07:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:02:16 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:02:32 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:02:32 UTC] PHP Stack trace:
+[12-Dec-2018 07:02:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:02:32 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:02:52 UTC] PHP Warning:  Illegal string offset 'price' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:02:52 UTC] PHP Stack trace:
+[12-Dec-2018 07:02:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:02:52 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:13:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:13:23 UTC] PHP Stack trace:
+[12-Dec-2018 07:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:13:23 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:15:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:15:02 UTC] PHP Stack trace:
+[12-Dec-2018 07:15:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:15:02 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:15:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:15:16 UTC] PHP Stack trace:
+[12-Dec-2018 07:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:15:16 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:17:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:17:59 UTC] PHP Stack trace:
+[12-Dec-2018 07:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:17:59 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:18:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:18:14 UTC] PHP Stack trace:
+[12-Dec-2018 07:18:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:18:14 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:18:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:18:36 UTC] PHP Stack trace:
+[12-Dec-2018 07:18:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:18:36 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:18:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:18:55 UTC] PHP Stack trace:
+[12-Dec-2018 07:18:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:18:55 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:20:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 170
+[12-Dec-2018 07:20:48 UTC] PHP Stack trace:
+[12-Dec-2018 07:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:20:48 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:70
+[12-Dec-2018 07:27:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 173
+[12-Dec-2018 07:27:37 UTC] PHP Stack trace:
+[12-Dec-2018 07:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:27:37 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:27:37 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 177
+[12-Dec-2018 07:27:37 UTC] PHP Stack trace:
+[12-Dec-2018 07:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:27:37 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:27:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 173
+[12-Dec-2018 07:27:56 UTC] PHP Stack trace:
+[12-Dec-2018 07:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:27:56 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:27:56 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 177
+[12-Dec-2018 07:27:56 UTC] PHP Stack trace:
+[12-Dec-2018 07:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:27:56 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:28:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 173
+[12-Dec-2018 07:28:08 UTC] PHP Stack trace:
+[12-Dec-2018 07:28:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:28:08 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:30:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:30:02 UTC] PHP Stack trace:
+[12-Dec-2018 07:30:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:30:02 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:33:46 UTC] PHP Stack trace:
+[12-Dec-2018 07:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:33:46 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:34:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:34:22 UTC] PHP Stack trace:
+[12-Dec-2018 07:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:34:22 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:34:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 169
+[12-Dec-2018 07:34:35 UTC] PHP Stack trace:
+[12-Dec-2018 07:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:34:35 UTC] PHP   2. displayAvgPrice() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:36:32 UTC] PHP Fatal error:  Call to undefined function displayAvgPrice() in /home/ubuntu/workspace/cst336/final_project/admin.php on line 53
+[12-Dec-2018 07:36:32 UTC] PHP Stack trace:
+[12-Dec-2018 07:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:37:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) FROM item LIMIT 1' at line 1' in /home/ubuntu/workspace/cst336/final_project/inc/functions.php:163
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final_project/inc/functions.php(163): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final_project/admin.php(53): displayAVG()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 163
+[12-Dec-2018 07:45:45 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 166
+[12-Dec-2018 07:45:45 UTC] PHP Stack trace:
+[12-Dec-2018 07:45:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:46:10 UTC] PHP Fatal error:  Call to undefined function AVG() in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 166
+[12-Dec-2018 07:46:10 UTC] PHP Stack trace:
+[12-Dec-2018 07:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:46:10 UTC] PHP   2. displayAVG() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:50:32 UTC] PHP Warning:  PDOStatement::fetch() expects parameter 1 to be long, string given in /home/ubuntu/workspace/cst336/final_project/inc/functions.php on line 164
+[12-Dec-2018 07:50:32 UTC] PHP Stack trace:
+[12-Dec-2018 07:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/admin.php:0
+[12-Dec-2018 07:50:32 UTC] PHP   2. displayAVG() /home/ubuntu/workspace/cst336/final_project/admin.php:53
+[12-Dec-2018 07:50:32 UTC] PHP   3. PDOStatement->fetch() /home/ubuntu/workspace/cst336/final_project/inc/functions.php:164
+[12-Dec-2018 09:06:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/addProduct.php on line 64
+[12-Dec-2018 09:06:10 UTC] PHP Stack trace:
+[12-Dec-2018 09:06:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/addProduct.php:0
+[12-Dec-2018 09:06:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/final_project/updateProduct.php on line 82
+[12-Dec-2018 09:06:21 UTC] PHP Stack trace:
+[12-Dec-2018 09:06:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final_project/updateProduct.php:0

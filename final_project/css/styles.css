@@ -1,0 +1,33 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.jumbotron{
+    background-color: #ee1515;
+    /*background-color: red;*/
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#Main, #loginMain, #adminMain, #addProductMain, #updateProductMain{
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+    width:95%;
+    border-style: double;
+    border-width: 25px;
+    border-color: black;
+    /*padding-top: 20px;*/
+    
+}
+
+
+ footer {
+     color:white;
+     padding-bottom: 25;
+ }
