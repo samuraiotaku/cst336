@@ -30,29 +30,66 @@ session_start();
                 $('#myModal').modal("show");
             }
 	          
-	         $(function(){
-            
-               
-           $(".avgPrice").click(function(){
-               $.ajax({
-                    type: "GET",
-                    url: "avgPrice.php",
-                    dataType: "json",
-                    data: { "price": price },
-                    success: function(data,status) {
-                       alert(data);
-                       $("#averagePrice").html("<h3>Average Price: "+ data.avgPrice +"</h3>");
-                    
-                    },
-                    complete: function(data,status) { //optional, used for debugging purposes
-                    //alert(status);
-                    }
-                    
-                });//ajax
-
-           });
-        });
+    	    $(function(){
+               $(".avgPrice").click(function(){
+                   //alert("We got there!");
+                var price = $(this).val();
+                   $.ajax({
+                        type: "GET",
+                        url: "avgPrice.php",
+                        dataType: "json",
+                        data: { "price": price },
+                        success: function(data,status) {
+                            //alert(data);
+                            $("#dataHolder").html("<h3>Average Price: "+ data.avgPrice +"</h3>");
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                            //alert("We did it!");
+                        }
+                    });//ajax
+                });
+                
+                $(".itemCount").click(function(){
+                   //alert("We got there!");
+                var count = $(this).val();
+                   $.ajax({
+                        type: "GET",
+                        url: "itemCount.php",
+                        dataType: "json",
+                        data: { "count": count },
+                        success: function(data,status) {
+                            //alert(data);
+                            $("#dataHolder").html("<h3> # of Items: "+ data.itemCount +"</h3>");
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                            //alert("We did it!");
+                        }
+                    });//ajax
+                });
+                
+                $(".ballCount").click(function(){
+                   //alert("We got there!");
+                var count = $(this).val();
+                   $.ajax({
+                        type: "GET",
+                        url: "pokeballCount.php",
+                        dataType: "json",
+                        data: { "count": count },
+                        success: function(data,status) {
+                            //alert(data);
+                            $("#dataHolder").html("<h3> # of Pokeballs: "+ data.ballCount +"</h3>");
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                            //alert("We did it!");
+                        }
+                    });//ajax
+                });                
+            });
 	          
+
 	          
         </script>
         
@@ -70,8 +107,8 @@ session_start();
             </form><br>
             
             <button type="button" class = "avgPrice" name= "avgPrice" id= "avgPrice" onclick="displayAVG();">AVG Price of Items </button>
-            <button type="button" id= "expensiveItem" >Most Expensive Item</button>
-            <button type="button" id= "itemCount" >Number of Items</button><br><br>
+            <button type="button" class = "ballCount" name= "ballCount" id= "ballCount" >Pokeball Inventory</button>
+            <button type="button" class="itemCount" name="itemCount" id= "itemCount" >Number of Items</button><br><br>
 
             
             <form action="logout.php">
@@ -80,7 +117,8 @@ session_start();
 
            <br><br>
            
-        <div id="averagePrice"></div>   
+        <div id="dataHolder"></div>   
+        <div id="averagePrice"></div>  
         <?= displayAllProducts() ?>
         
 	    </div>

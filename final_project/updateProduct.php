@@ -41,7 +41,7 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
 
 if (isset($_GET['productId'])) {
   $productInfo = getProductInfo($_GET['productId']);    
- print_r($productInfo);
+ //print_r($productInfo);
 }
 
 
@@ -90,6 +90,7 @@ if (isset($_GET['productId'])) {
            
            Set Image Url: <input type="text" name="image" value="<?=$productInfo['image']?>"><br><br>
            
+           <input type="hidden" name="productId" value=<?php echo $GET_['produc']?>"Update Product">
            <input type="submit" name="updateProduct" value="Update Product">
            
         </form><br>

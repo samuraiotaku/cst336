@@ -1,7 +1,7 @@
 <?php
 
-    include 'inc/dbConnection.php';
-    $dbConn = startConnection("final_project");
+include 'inc/dbConnection.php';
+$dbConn = startConnection("final_project");
 
     // $sql = "SELECT AVG(price) FROM item";
     
@@ -12,7 +12,7 @@
     // echo json_encode($record);
     
     
-$sql = "SELECT avg(price) avgRating FROM item";
+$sql = "SELECT avg(price) avgPrice FROM item";
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
