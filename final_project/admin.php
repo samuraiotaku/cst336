@@ -79,7 +79,7 @@ session_start();
                         data: { "count": count },
                         success: function(data,status) {
                             //alert(data);
-                            $("#dataHolder").html("<h3> # of Pokeballs: "+ data.ballCount +"</h3>");
+                            $("#dataHolder").html("<h3> # of Pokeball types: "+ data.ballCount +"</h3>");
                         
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
